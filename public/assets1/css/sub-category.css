@@ -1,0 +1,134 @@
+.flx-inner-cont h2{
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: #2257de;
+    font-size: 18px;
+ }
+ .flx-inner-cont  p{
+     margin-bottom: 3px;
+     font-size: 14px;
+ }
+ .flx-inner-cont  p .lab{
+     font-weight: 600;
+     margin-right: 12px;
+ }
+ .trainer-item {
+     display: flex;
+     justify-content: space-between;
+ }
+ .right-btn-flex-box{
+     display: flex;
+     align-items: center;
+ }
+ button.btn.details-btn {
+    min-width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    padding: 0;
+    margin-left: 15px;
+}
+ button.btn.details-btn i{
+     margin-right: 5px;
+ }
+ button.btn.details-btn.reg-new{
+     background: linear-gradient(
+ 180deg
+ , #22A6DE 0%, #2257DE 75.52%);
+     font-size: 16px;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #fff;
+     text-align: center;
+     border-radius: 30px;
+     line-height: 60px;
+     display: inline-block;
+     border: 0;
+     width: 250px;
+     padding-top: 0;
+     padding-bottom: 0;
+}
+.trainer-item .flex-right-box{
+    width: calc(100% - 180px);
+}
+.flex-inner-bx{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.trainer-item .trainer-item-info {
+    width: 100%;
+    padding-left: 20px;
+}
+.trainer-item .trainer-img{
+    width: 180px;
+    height: 190px;
+}
+@media(max-width:991px){
+    .mrt-lg-20{
+        margin-top: 20px;
+    }
+}
+@media(max-width:767px){
+    .trainer-item {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    .flx-inner-cont {
+        width: 100%;
+        text-align: left;
+    }
+    .flex-right-box{
+        width: inherit;
+        padding-left: 0;
+    }
+    .trainer-item{
+        text-align: inherit;
+    }
+    .pin-txt {
+        display: block;
+    }
+    .flex-inner-bx {
+        flex-wrap: wrap;
+    }
+    .trainer-item .trainer-item-info{
+        width: 100%;
+        padding-left: 0;
+        word-break: break-word;
+    }
+    button.btn.details-btn{
+        min-width: 42px;
+        height: 42px;
+        line-height: 42px;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    button.btn.details-btn img{
+        width: 28px;
+    }
+    .trainer-item .flex-right-box{
+        width: calc(100% - 100px);
+    }
+    .trainer-item .trainer-item-info {
+        padding-left: 10px;
+        padding-top: 0;
+    }
+    .trainer-item .trainer-img{
+        width: 100px;
+        height: 100px;
+    }
+ 
+}
+@media (max-width: 575px) {
+    .trainer-item .flex-right-box{
+        width: calc(100% - 60px);
+    }
+    .trainer-item .trainer-img{
+        width: 60px;
+        height: 60px;
+    }
+    .flx-inner-cont h2 {
+        font-size: 16px;
+    }
+}

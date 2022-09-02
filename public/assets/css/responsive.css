@@ -1,0 +1,94 @@
+.dfsdfds{display: flex;
+    padding-top: 32px;
+    justify-content: end;}
+    .SearchTitle-module_title{color: #09b2ff;
+        font-size: 50px;
+        text-align: center;}
+      .modd{width:50% !important;}
+          .content-detail h1{margin-bottom: 15px;}
+      .screen-reader-text{margin-bottom: 15px;}
+      .tweet-question-heading h4{cursor: pointer;}
+      .close{color:#000 !important; }
+      button{border: none !important;}
+.navbar-toggler{border-color: transparent !important;}
+
+@media (max-width: 991px) {
+    
+    .navbar-collapse {
+        display: block;
+    }
+   
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+ .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+}
+        @media screen and (max-width: 425px) {
+            .SearchTitle-module_title{font-size: 20px;}
+            .dfsdfds{padding-top: 5px;}
+            /*.SearchTitle{padding-top: 50px}*/
+        
+          .btn {
+            display: inline-block;
+            padding: 3px 5px;
+            margin-bottom: 0;
+            font-size: 10px;
+            font-weight: 400;
+        }
+        .profile-dropdown span {
+          
+             margin-right: 0rem !important; 
+             width: 100px !important; 
+           
+        }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .content-detail h1{font-size: 26px;}
+          .SearchBar-module_search-box_tsBww{margin-bottom: 13px;}
+           .modal-content {
+            width: 100% !important;
+        }
+      .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+        .model-content{width:100% !important;}
+       .modd {
+    width: 100% !important;
+    overflow: scroll;
+    height: 590px;
+}
+.detal {
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 30%);
+    width: 100% !important;
+    margin: auto;
+    padding: 25px;
+    margin-top: 40px;
+}
+.content-detail-container .main-thumbnail img {
+    max-width: 100% !important;
+}
+.content-info{margin-top:20px;}
+    }
+    @media screen and (max-width: 425px) {
+        .profile-dropdown input[type=checkbox]:checked ~ label {
+   
+    display: none;
+}
+.profile-dropdown img {
+   
+    height: 25px;
+    width: 25px !important;
+   
+}
+.profile-dropdown{font-size: 14px !important;}
+.sign-in-wrapper{margin-left: 0px !important;}
+.headline {
+    margin-left:0px !important;}
+}
+    }

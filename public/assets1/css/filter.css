@@ -1,0 +1,178 @@
+.card {
+    border: none;
+    margin-bottom: 4px;
+    margin-bottom: 4px;
+  }
+  .card-header{
+    border-radius: 50px !important;
+    padding: 4px 8px;
+    background: linear-gradient(180deg, #22A6DE 0%, #2257DE 75.52%);
+   
+    
+  }
+  .card-header:hover{
+    background: linear-gradient(
+      180deg
+      , #2257DE 0%, #22A6DE 75.52%);
+  }
+  h5 button{
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 8px;
+  }
+  .form-check-input {
+    width: 20px;
+    height: 20px;
+  }
+  .form-check-label {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    line-height: 33px;
+  }
+  .form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    font-size: 18px;
+  }
+  div#accordion {
+    margin-bottom: 20px;
+  }
+  .format
+  input[type="number"] {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    min-height: 46px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .price input[type="number"] {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    min-height: 46px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  .price input[type="number"]:nth-last-child(1){
+    margin-right: 0px;
+  }
+  .radio-item{
+    display: block;
+  }
+  button.fil-sb-bt {
+    background: linear-gradient(
+      180deg
+      , #22A6DE 0%, #2257DE 75.52%);
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #fff;
+          text-align: center;
+          border-radius: 10px;
+          line-height: 50px;
+          min-width: 164px;
+          display: inline-block;
+          border: 0;
+          padding-top: 0;
+          margin-top: 10px;
+          padding-bottom: 0;
+  }
+  button.fil-sb-bt:hover{
+    background: linear-gradient(
+      180deg
+      , #2257DE 0%, #22A6DE 75.52%);
+  }
+  .card-body{
+    padding: 10px;
+  }
+  
+  h5.mb-0 {
+    text-transform: uppercase;
+    margin-bottom: 12px !important;
+  }
+  /* .dropdown{
+   margin-bottom: 20px; 
+     height: 190px;
+    overflow-y: scroll; 
+  } */
+  .search-dropdown {
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    display: block;
+    right: auto;
+    bottom: auto;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    z-index: 1000;
+    float: left;
+    padding: .5rem 0;
+  }
+  .sidebar-items{
+    border-bottom: 1px solid #ddd;
+  }
+  .sidebar-items .panel-body{
+    padding-bottom: 12px;
+  }
+ 
+  .panel-title {
+    position: relative;
+    color: #260f02;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+  }
+  .sidebar-items .panel-title::after {
+    content: "\f107";
+    color: #333;
+    top: 11px;
+    right: 0px;
+    position: absolute;
+    font-family: "FontAwesome";
+    font-size: 18px;
+  }
+  .sidebar-items .panel-title[aria-expanded="true"]::after {
+    content: "\f106";
+  }
+  .sidebar-items .checkbox-label,
+  .sidebar-items .radio-label{
+    color: #260f02;
+    font-size: 16px;
+  }
+  .sidebar-items .checkbox-item,
+  .sidebar-items .radio-item{
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  .sidebar-items .checkbox-item:last-child,
+  .sidebar-items .radio-item:last-child{
+    margin-bottom: 0;
+  }
+  
+  
+  
+  @media(max-width:1200px) and (min-width:989px){
+    .category_search {
+        width: 360px;
+    }
+    .logo_section {
+        max-width: 130px;
+    }
+  }
